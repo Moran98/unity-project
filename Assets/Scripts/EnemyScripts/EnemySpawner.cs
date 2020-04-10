@@ -6,11 +6,17 @@ public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]
     private float spawnRadius= 7, time =1.5f;
+    Vector2 wheretoSpawn;
 
     public GameObject[] Enemy;
     void Start()
     {
         StartCoroutine(SpawnAnEnemy());
+    }
+
+    private void Update()
+    {
+        
     }
 
     IEnumerator SpawnAnEnemy()

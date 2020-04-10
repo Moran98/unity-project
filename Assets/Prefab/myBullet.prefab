@@ -1,16 +1,16 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!61 &5981053582469112235
+--- !u!61 &3906119324737634210
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5946363927319585644}
+  m_GameObject: {fileID: 2878443121178320432}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -26,7 +26,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.12, y: 5.12}
   m_EdgeRadius: 0
---- !u!1001 &4077644250541609611
+--- !u!114 &-2414125852677913334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878443121178320432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56692431472050645a4cff5927e23396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effect: {fileID: 0}
+  damage: 50
+  enemy: {fileID: 0}
+--- !u!1001 &5611838556900618199
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -36,7 +51,12 @@ PrefabInstance:
     - target: {fileID: 7643463626529370599, guid: d1ebefc5b4db3bb4889ccd4ba1567218,
         type: 3}
       propertyPath: m_Name
-      value: Bullet Variant
+      value: myBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643463626529370599, guid: d1ebefc5b4db3bb4889ccd4ba1567218,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bullet
       objectReference: {fileID: 0}
     - target: {fileID: 7850435383069697633, guid: d1ebefc5b4db3bb4889ccd4ba1567218,
         type: 3}
@@ -46,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 7850435383069697633, guid: d1ebefc5b4db3bb4889ccd4ba1567218,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.29
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 7850435383069697633, guid: d1ebefc5b4db3bb4889ccd4ba1567218,
         type: 3}
@@ -93,16 +113,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1298760816632423225, guid: d1ebefc5b4db3bb4889ccd4ba1567218,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6763515411773434693, guid: d1ebefc5b4db3bb4889ccd4ba1567218, type: 3}
+    - {fileID: 7665240337535246483, guid: d1ebefc5b4db3bb4889ccd4ba1567218, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d1ebefc5b4db3bb4889ccd4ba1567218, type: 3}
---- !u!1 &5946363927319585644 stripped
+--- !u!1 &2878443121178320432 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7643463626529370599, guid: d1ebefc5b4db3bb4889ccd4ba1567218,
     type: 3}
-  m_PrefabInstance: {fileID: 4077644250541609611}
+  m_PrefabInstance: {fileID: 5611838556900618199}
   m_PrefabAsset: {fileID: 0}
