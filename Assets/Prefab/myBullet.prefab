@@ -58,6 +58,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Bullet
       objectReference: {fileID: 0}
+    - target: {fileID: 5092145228360210400, guid: d1ebefc5b4db3bb4889ccd4ba1567218,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7850435383069697633, guid: d1ebefc5b4db3bb4889ccd4ba1567218,
         type: 3}
       propertyPath: m_LocalPosition.x

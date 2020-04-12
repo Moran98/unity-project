@@ -16,6 +16,11 @@ public class Shooting : MonoBehaviour
         {
             Shoot();
         }
+
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Shoot();
+        }
     }
 
     void Shoot()

@@ -18,9 +18,10 @@ public class PlayerMovement : MonoBehaviour
     public Camera camera;
     private int count;
 
-    public GameObject gameOverText, youWinText, restartButton, nextWaveButton;
+    public GameObject gameOverText, quitButton, youWinText, restartButton, nextWaveButton;
 
     [SerializeField] private float speed = 20f;
+    [SerializeField] private int winCount;
 
     // == private methods ==
 
@@ -31,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
         restartButton.SetActive(false);
         youWinText.SetActive(false);
         nextWaveButton.SetActive(false);
+        quitButton.SetActive(false);
 
 
         rb = GetComponent<Rigidbody2D>();
@@ -67,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
         {
             gameOverText.SetActive(true);
             restartButton.SetActive(true);
+            quitButton.SetActive(true);
             gameObject.SetActive(false);
         }
     }
@@ -91,7 +94,8 @@ public class PlayerMovement : MonoBehaviour
     //Score counter and winner message
     void setCountText(){
         countText.text="SCORE : "+count.ToString();
-        if(count>=4){
+        if(count>= winCount)
+        {
             nextWaveButton.SetActive(true);
             youWinText.SetActive(true);
             Destroy(gameObject);

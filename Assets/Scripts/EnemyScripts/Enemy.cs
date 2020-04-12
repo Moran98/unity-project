@@ -23,22 +23,6 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    /*    private void OnTriggerEnter2D(Collider2D whatHitMe)
-        {
-
-            var player = whatHitMe.GetComponent<PlayerMovement>();
-            var bullet = whatHitMe.GetComponent<Bullet>();
-
-            if (bullet)
-            {
-                Destroy(gameObject);
-            }
-
-            else if (player)
-            {
-                Destroy(gameObject);
-            }
-        }*/
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
