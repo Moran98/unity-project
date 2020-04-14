@@ -516,7 +516,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT WAVE
+  m_Text: FINAL WAVE
 --- !u!222 &1620104426
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1061,6 +1061,26 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3087118255523393163, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3087118255523393163, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3087118255523393163, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3087118255523393163, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
+        type: 3}
+      propertyPath: m_Text
+      value: ' Score : '
+      objectReference: {fileID: 0}
     - target: {fileID: 3087118255433252260, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1246,6 +1266,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3087118255185087718, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
+        type: 3}
+      propertyPath: m_Text
+      value: YOU DIED
+      objectReference: {fileID: 0}
     - target: {fileID: 3087118253662795309, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1405,6 +1430,16 @@ PrefabInstance:
       propertyPath: quitButton
       value: 
       objectReference: {fileID: 311933732}
+    - target: {fileID: 3570040192843430336, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
+        type: 3}
+      propertyPath: enemyCountText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570040192843430336, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
+        type: 3}
+      propertyPath: outOfCount
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3570040192843430348, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
       propertyPath: healthBar

@@ -429,6 +429,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44d943f023ce31d4681c04ace82c74e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &990369534
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1750224413}
+    m_Modifications:
+    - target: {fileID: 1544434962638137489, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_Name
+      value: nuke (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.19857
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.19245
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6dabf65f612bd504ea50fee8ce39a51e, type: 3}
+--- !u!1 &990369535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1544434962638137489, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+    type: 3}
+  m_PrefabInstance: {fileID: 990369534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &990369536
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990369535}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1173671921 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3087118255321858325, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
@@ -623,7 +734,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT WAVE
+  m_Text: QUIT
 --- !u!222 &1620104426
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1031,6 +1142,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3087118255321858327, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
+        type: 3}
+      propertyPath: m_Text
+      value: YOU COMPLETED THE GAME!
+      objectReference: {fileID: 0}
     - target: {fileID: 3087118255433252260, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1216,6 +1332,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3087118255185087718, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
+        type: 3}
+      propertyPath: m_Text
+      value: YOU DIED
+      objectReference: {fileID: 0}
     - target: {fileID: 3087118253662795309, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1368,13 +1489,18 @@ PrefabInstance:
     - target: {fileID: 3570040192843430336, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
       propertyPath: winCount
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3570040192843430336, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
       propertyPath: quitButton
       value: 
       objectReference: {fileID: 1834183953}
+    - target: {fileID: 3570040192843430336, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
+        type: 3}
+      propertyPath: outOfCount
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3570040192843430348, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
       propertyPath: healthBar

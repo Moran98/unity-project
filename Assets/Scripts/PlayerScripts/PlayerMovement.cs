@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
     public Text countText;
+
     public Text win;
     Vector2 movement;
     Vector2 mousePos;
@@ -17,11 +18,14 @@ public class PlayerMovement : MonoBehaviour
     private Camera gameCamera;
     public Camera camera;
     private int count;
+    private int enemyCount;
+
 
     public GameObject gameOverText, quitButton, youWinText, restartButton, nextWaveButton;
 
     [SerializeField] private float speed = 20f;
     [SerializeField] private int winCount;
+    [SerializeField] private int outOfCount;
 
     // == private methods ==
 
@@ -93,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Score counter and winner message
     void setCountText(){
-        countText.text="SCORE : "+count.ToString();
+        countText.text="SCORE : "+count.ToString() + "/"+outOfCount;
         if(count>= winCount)
         {
             nextWaveButton.SetActive(true);
@@ -102,6 +106,4 @@ public class PlayerMovement : MonoBehaviour
             win.text="YOU WIN!";
         }
     }
-
-  
 }
