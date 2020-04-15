@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public Text countText;
 
     public Text win;
+    public Text soclose;
     Vector2 movement;
     Vector2 mousePos;
     public Enemy enemy;
@@ -21,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     private int enemyCount;
 
 
-    public GameObject gameOverText, quitButton, youWinText, restartButton, nextWaveButton;
+    public GameObject gameOverText, quitButton, youWinText, restartButton, nextWaveButton, startButton, soCloseText;
 
     [SerializeField] private float speed = 20f;
     [SerializeField] private int winCount;
@@ -37,13 +38,13 @@ public class PlayerMovement : MonoBehaviour
         youWinText.SetActive(false);
         nextWaveButton.SetActive(false);
         quitButton.SetActive(false);
-
+        startButton.SetActive(false);
+        soCloseText.SetActive(false);
 
         rb = GetComponent<Rigidbody2D>();
         count=0;
         win.text="";
         setCountText();
-   
     }
 
     void Update()
@@ -75,6 +76,10 @@ public class PlayerMovement : MonoBehaviour
             restartButton.SetActive(true);
             quitButton.SetActive(true);
             gameObject.SetActive(false);
+            startButton.SetActive(true);
+            soCloseText.SetActive(true);
+
+
         }
     }
 
@@ -98,7 +103,14 @@ public class PlayerMovement : MonoBehaviour
     //Score counter and winner message
     void setCountText(){
         countText.text="SCORE : "+count.ToString() + "/"+outOfCount;
-        if(count>= winCount)
+
+        if (count == (winCount - 1))
+        {
+            soCloseText.SetActive(true);
+            soclose.text = "Sooooo Close...";
+        }
+
+        if (count== winCount)
         {
             nextWaveButton.SetActive(true);
             youWinText.SetActive(true);

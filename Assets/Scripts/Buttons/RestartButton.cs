@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class RestartButton : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] private int restartSceneNum;
     void Start()
     {
         
@@ -19,6 +20,6 @@ public class RestartButton : MonoBehaviour
 
     public void restartScene()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(restartSceneNum);
     }
 }

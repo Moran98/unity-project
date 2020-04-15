@@ -21,4 +21,9 @@ public class QuitButton : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void start()
+    {
+        SceneManager.LoadScene("Game1");
+    }
 }
