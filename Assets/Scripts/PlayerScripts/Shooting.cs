@@ -8,17 +8,20 @@ public class Shooting : MonoBehaviour
     public GameObject bulletPrefab;
 
     public float bulletForce = 20f;
+    public AudioSource someSound;
 
     void Update()
     {
 
         if (Input.GetButtonDown("Fire1"))
         {
+            someSound.Play();
             Shoot();
         }
 
         else if (Input.GetKeyDown(KeyCode.Space))
         {
+            someSound.Play();
             Shoot();
         }
     }
