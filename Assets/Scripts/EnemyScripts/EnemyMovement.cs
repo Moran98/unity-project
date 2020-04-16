@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-
+    // setting speed of enemies
     public float speed;
 
     private Transform target;
     void Start()
     {
+        // enemy will follow the Player tag
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 

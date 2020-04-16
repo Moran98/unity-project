@@ -5,18 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ControlsButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // load Controls menu UI
     public void viewControls()
     {
 

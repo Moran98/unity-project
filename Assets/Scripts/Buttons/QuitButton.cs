@@ -5,23 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class QuitButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // quit method used to exit to main menu
     public void quit()
     {
         SceneManager.LoadScene("MainMenu");
     }
 
+    // start option brings us to the first scene of the game
     public void start()
     {
         SceneManager.LoadScene("Game1");

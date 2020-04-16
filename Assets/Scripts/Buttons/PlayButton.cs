@@ -7,17 +7,7 @@ public class PlayButton : MonoBehaviour
 {
 
     [SerializeField] private int sceneNum;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
+    // load the next wave once the user collects all the items
     public void nextWave()
     {
         
