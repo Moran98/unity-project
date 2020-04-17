@@ -539,21 +539,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: nuke (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.0000018010167
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
-        type: 3}
-      propertyPath: m_Radius
-      value: 3.1652896
-      objectReference: {fileID: 0}
     - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -612,12 +597,27 @@ PrefabInstance:
     - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.19857
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.19245
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0000018010167
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 3.1652896
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dabf65f612bd504ea50fee8ce39a51e, type: 3}
@@ -998,21 +998,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: nuke (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.0000018010167
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
-        type: 3}
-      propertyPath: m_Radius
-      value: 3.1652896
-      objectReference: {fileID: 0}
     - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1071,12 +1056,27 @@ PrefabInstance:
     - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.19857
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.19245
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0000018010167
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 3.1652896
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dabf65f612bd504ea50fee8ce39a51e, type: 3}
@@ -1091,21 +1091,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nuke (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.056786053
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
-        type: 3}
-      propertyPath: m_Radius
-      value: 3.101089
       objectReference: {fileID: 0}
     - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
         type: 3}
@@ -1165,12 +1150,27 @@ PrefabInstance:
     - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.19857
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1544434962638137493, guid: 6dabf65f612bd504ea50fee8ce39a51e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.19245
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.056786053
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544434962638137491, guid: 6dabf65f612bd504ea50fee8ce39a51e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 3.101089
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dabf65f612bd504ea50fee8ce39a51e, type: 3}
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9ac80b30fe88e4594de15ae2c785e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNum: 8
+  sceneNum: 5
 --- !u!114 &1965312817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1605,6 +1605,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pickups
       objectReference: {fileID: 0}
+    - target: {fileID: 2401912005107081614, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2401912005107081614, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2401912005107081614, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2401912005107081614, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763779295910747772, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763779295910747772, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 2401912006210602104, guid: 4a46edaf7eabea644b2001d51525326e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1660,6 +1690,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3763779296439321720, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763779296439321720, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763779296439321720, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763779296439321720, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763779296426267719, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763779296426267719, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763779296426267719, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763779296426267719, guid: 4a46edaf7eabea644b2001d51525326e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 2401912005107081608, guid: 4a46edaf7eabea644b2001d51525326e,
         type: 3}
       propertyPath: m_Offset.y
@@ -1699,36 +1769,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Radius
       value: 3.0529206
-      objectReference: {fileID: 0}
-    - target: {fileID: 2401912005107081614, guid: 4a46edaf7eabea644b2001d51525326e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 2401912005107081614, guid: 4a46edaf7eabea644b2001d51525326e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763779296426267719, guid: 4a46edaf7eabea644b2001d51525326e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763779296426267719, guid: 4a46edaf7eabea644b2001d51525326e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763779296439321720, guid: 4a46edaf7eabea644b2001d51525326e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763779296439321720, guid: 4a46edaf7eabea644b2001d51525326e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a46edaf7eabea644b2001d51525326e, type: 3}
@@ -2167,12 +2207,12 @@ PrefabInstance:
     - target: {fileID: 3570040192843430338, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1026525
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 3570040192843430338, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0999698
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 3570040192843430336, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
@@ -2242,12 +2282,12 @@ PrefabInstance:
     - target: {fileID: 3570040192843430350, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.023465091
+      value: -0.68481565
       objectReference: {fileID: 0}
     - target: {fileID: 3570040192843430350, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
       propertyPath: m_Radius
-      value: 7.427641
+      value: 3.5998209
       objectReference: {fileID: 0}
     - target: {fileID: 3570040192316828151, guid: 9a2cd0f7a3f307d4cace7a8aac193c17,
         type: 3}
@@ -2292,7 +2332,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.6560979
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -2388,7 +2428,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.6560979
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

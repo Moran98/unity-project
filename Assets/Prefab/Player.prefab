@@ -106,7 +106,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ff74130c95d431449b4e2bb889d6098f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb70198261766bc4cafe07f9f9e46f87, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -161,6 +161,7 @@ MonoBehaviour:
   youWinText: {fileID: 0}
   restartButton: {fileID: 0}
   nextWaveButton: {fileID: 0}
+  startButton: {fileID: 0}
   speed: 3
   winCount: 0
   outOfCount: 0
@@ -180,6 +181,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2878443121178320432, guid: dd45ec767144b264ea35f21b25db5095,
     type: 3}
   bulletForce: 20
+  someSound: {fileID: 0}
 --- !u!61 &3570040192843430349
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -197,7 +199,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 16, y: 16}
+    oldSize: {x: 10.24, y: 10.24}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

@@ -21,3 +21,4 @@ public class EnemyScore : MonoBehaviour
         score.text = "COLLECT : " + scoreValue;
     }
 }
+ 
