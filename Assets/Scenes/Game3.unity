@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1394912985}
-  restartSceneNum: 4
+  restartSceneNum: 5
 --- !u!1 &105565504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9ac80b30fe88e4594de15ae2c785e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNum: 5
+  sceneNum: 6
 --- !u!114 &1965312817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2079,7 +2079,7 @@ PrefabInstance:
     - target: {fileID: 3087118253662795305, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
         type: 3}
       propertyPath: restartSceneNum
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3087118255523393161, guid: 513e81f31758e8b4f95dc3e8ffe8d321,
         type: 3}

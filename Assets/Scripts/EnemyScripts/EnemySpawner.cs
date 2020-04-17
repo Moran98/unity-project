@@ -24,4 +24,7 @@ public class EnemySpawner : MonoBehaviour
         yield return new WaitForSeconds(time);
         StartCoroutine(SpawnAnEnemy());
     }
+
+    // References for this code is - Brackeys 
+    // https://www.youtube.com/watch?v=Vrld13ypX_I&t=132s
 }

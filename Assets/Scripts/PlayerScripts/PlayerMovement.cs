@@ -7,10 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     //Variables
     public float moveSpeed = 5f;
-
     public Rigidbody2D rb;
     public Text countText;
-
     public Text win;
     Vector2 movement;
     Vector2 mousePos;
@@ -19,19 +17,15 @@ public class PlayerMovement : MonoBehaviour
     public Camera camera;
     private int count;
     private int enemyCount;
-
-
     public GameObject gameOverText, quitButton, youWinText, restartButton, nextWaveButton, startButton;
 
-    [SerializeField] private float speed = 20f;
+    // when player reaches specific count perfom action
     [SerializeField] private int winCount;
     [SerializeField] private int outOfCount;
 
-    // == private methods ==
-
-
     void Start()
     {
+        // hide all UI Texts on game start
         gameOverText.SetActive(false);
         restartButton.SetActive(false);
         youWinText.SetActive(false);
@@ -40,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
         startButton.SetActive(false);
 
         rb = GetComponent<Rigidbody2D>();
+        // setting current counter to ZERO on start
         count=0;
         win.text="";
         setCountText();
@@ -47,6 +42,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // Move using WSAD around the designated playing area
+        // References : Brackeys  - https://www.youtube.com/watch?v=LNLVOjbrQj4
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
 
@@ -55,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.position = new Vector2(xValue, yValue);
 
+        // mouse position determines the players direction
         mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
     }
 
@@ -68,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // if player collides with enemy display GAME OVER text UI's and Buttons
         if (collision.gameObject.tag.Equals("Enemy"))
         {
             gameOverText.SetActive(true);
@@ -80,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Collectable items
     void OnTriggerEnter2D(Collider2D other){
+        // if player collides with PickUp add to the counter calling setCountText() method
         if(other.gameObject.CompareTag("PickUp")){
             // Destroy(other.gameObject);
             other.gameObject.SetActive(false);
@@ -89,6 +89,7 @@ public class PlayerMovement : MonoBehaviour
 
         enemy = other.GetComponent<Enemy>();
 
+        // if player collides with an enemy destroy the player
         if (enemy)
         {
             Destroy(gameObject);
@@ -97,8 +98,10 @@ public class PlayerMovement : MonoBehaviour
 
     //Score counter and winner message
     void setCountText(){
+        // TEXT UI DISPLAY
         countText.text="SCORE : "+count.ToString() + "/"+outOfCount;
 
+        // if count reaches =round win count activate UI components to move to the next wave
         if (count== winCount)
         {
             nextWaveButton.SetActive(true);

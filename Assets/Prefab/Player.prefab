@@ -162,7 +162,6 @@ MonoBehaviour:
   restartButton: {fileID: 0}
   nextWaveButton: {fileID: 0}
   startButton: {fileID: 0}
-  speed: 3
   winCount: 0
   outOfCount: 0
 --- !u!114 &3570040192843430351
@@ -231,7 +230,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3570040192843430340}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5e3bc5d26c297c4abf6f67f82d3bf14, type: 3}
   m_Name: 

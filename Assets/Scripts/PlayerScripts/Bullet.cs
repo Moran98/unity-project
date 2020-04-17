@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-
+    // variables
     public GameObject effect;
     private Rigidbody2D rb;
     public int damage = 50;
@@ -18,10 +18,10 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        //Instantiate(effect, transform.position, Quaternion.identity);
-        //Destroy(effect, 5f);
+        // on collision destroy bullet
         Destroy(gameObject);
 
+        // if bullet is out of boundaries destroy after specific distance
         if(transform.position.x > screenBounds.x * -2)
         {
             Destroy(this.gameObject);
@@ -37,7 +37,7 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    // delete bullets after 2 seconds
+    // destroy bullets after 2 seconds -- speed of bullets will mean they leave screen within 1 second
     private void Update()
     {
        Destroy(gameObject, 2.0f);

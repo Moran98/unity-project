@@ -20,7 +20,7 @@ public class CollectabaleMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        // if else to move the GameObject from pos1 to pos2
         if (transform.position == pos1.position)
         {
             nextPos = pos2.position;
