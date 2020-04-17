@@ -39,4 +39,7 @@ public class CollectabaleMove : MonoBehaviour
         // draw line which will determine direction of start and end positions
         Gizmos.DrawLine(pos1.position, pos2.position);        
     }
+
+    // References :
+    // Alexander Zotov - Youtube (Coin Counter)
 }
